@@ -1,0 +1,237 @@
+/* header */
+
+header {
+  height: 5rem;
+}
+
+#navbar ul {
+  font-size: 1rem;
+}
+
+header img {
+  height: 3rem;
+}
+
+#login {
+  font-size: 0.8rem;
+  margin-right: 0.2rem;
+  padding: 5px;
+}
+
+/* home */
+
+#home {
+  padding: 10px;
+  height: 40vh;
+  width: 100%;
+}
+
+#home::before {
+  height: 55vh;
+  width: 100%;
+}
+
+#home h1 {
+  font-size: 25px;
+}
+
+#home p {
+  padding: 0px;
+  font-size: 12px;
+}
+
+.BTN {
+  padding: 2px 15px;
+  font-size: 0.6rem;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+/* shotgun */
+
+#grid-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.1rem;
+  margin: 0.2rem;
+}
+
+#grid-1 h4 {
+  font-size: 20px;
+}
+
+#grid-1 .box {
+  padding: 3px;
+}
+
+#grid-1 .box img {
+  width: 320px;
+  height: 220px;
+  cursor: pointer;
+}
+
+#grid-1 .big img {
+  height: 420px;
+}
+
+#grid-1 p {
+  font-size: 15px;
+}
+
+/* military */
+
+#grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 0.1rem;
+  margin: 0.2rem;
+}
+
+#grid-2 h4 {
+  font-size: 20px;
+}
+
+#grid-2 .box {
+  padding: 3px;
+}
+
+#grid-2 .box img {
+  width: 320px;
+  height: 220px;
+  cursor: pointer;
+}
+
+#grid-2 .big img {
+  height: 420px;
+}
+
+#grid-2 p {
+  font-size: 15px;
+}
+
+/* home-defence */
+
+#grid-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.1rem;
+  margin: 0.2rem;
+}
+
+#grid-3 h4 {
+  font-size: 20px;
+}
+
+#grid-3 .box {
+  padding: 3px;
+}
+
+#grid-3 .box img {
+  width: 320px;
+  height: 220px;
+  cursor: pointer;
+}
+
+#grid-3 .big img {
+  height: 420px;
+}
+
+#grid-3 p {
+  font-size: 15px;
+}
+
+/* acessories */
+
+#grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.1rem;
+  margin: 0.2rem;
+}
+
+#grid-4 h4 {
+  font-size: 20px;
+}
+
+#grid-4 .box {
+  padding: 3px;
+}
+
+#grid-4 .box img {
+  width: 320px;
+  height: 220px;
+  cursor: pointer;
+}
+
+#grid-4 .big img {
+  height: 420px;
+}
+
+#grid-4 p {
+  font-size: 15px;
+}
+
+/* footer */
+
+.footer {
+  margin: 1px;
+  border-radius: 20px;
+}
+
+.footer section {
+  padding: 1.5rem;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.discrip p {
+  font-size: 12px;
+}
+
+.last {
+  padding: 10px;
+  word-spacing: 3px;
+  font-size: 10px;
+}
+
+.form {
+  font-size: 10px;
+}
+
+.follow .fab {
+  padding: 15px;
+
+  font-size: 15px;
+}
+
+.form input {
+  font-size: 10px;
+}
+
+.fas {
+  padding: 2px;
+  margin-top: 0px;
+}
+
+.h5 {
+  font-size: 18px;
+}
+
+/* utility classes */
+
+.P_HEADING {
+  font-size: 25px;
+  margin: 0px;
+  word-spacing: 0px;
+  padding: 0px;
+}
+
+.gun {
+  font-size: 25px;
+}
